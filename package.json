@@ -1,0 +1,23 @@
+{
+  "name": "antigravity-malicious-site-prompt-injection",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahaveer1013/Antigravity-malicious-site-prompt-injection.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mahaveer1013/Antigravity-malicious-site-prompt-injection/issues"
+  },
+  "homepage": "https://github.com/Mahaveer1013/Antigravity-malicious-site-prompt-injection#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
